@@ -1,18 +1,21 @@
 import React from 'react';
 
 const Home = () => (
-  <section class="hero is-large is-warning">
+  <section class="hero is-large">
     <div class="hero-body">
       <div class="container">
-        <h1 class="header animated slideInLeft">
+        <h1 class="is-size-1 animated slideInLeft">
           Hi there, I'm James.
         </h1>
-        <h2 class="title animated slideInLeft delay-1s">
+        <p class="is-size-3 animated slideInLeft delay-1s">
+          I'm a Full-Stack Developer.
+        </p>
+        <p class="animated slideInLeft delay-2s">
           I develop websites and applications.
-        </h2>
-        <h3 class="animated slideInLeft delay-2s">
+        </p>
+        <p class="animated slideInLeft delay-2s">
           I also code for daily learning and sustenance.
-        </h3>
+        </p>
       </div>
     </div>
   </section>
