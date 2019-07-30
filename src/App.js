@@ -5,30 +5,16 @@ import Home from './components/Home';
 import './scss/styles.scss'
 import About from './components/About';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 const App = () => {
-  let aboutRef = createRef();
-  let projectsRef = createRef();
-
-  const goToAbout = event => {
-    if(aboutRef) {
-      // window.scrollTo({behavior: "smooth", top: aboutRef.current.offsetTop});
-      console.log(aboutRef)
-    }
-  }
-
-  const goToProjects = event => {
-    window.scrollTo(0, projectsRef.current.offsetTop);
-  }
 
   return (
-    // <Switch>
-    //   <Route exact path='/' component={Home}/>
-    // </Switch>
     <div>
-      <Home scrollMethods={[goToAbout, goToProjects]}/>
-      <About ref={aboutRef}/>
-      <Projects ref={projectsRef}/>
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
     </div>
   );
 }

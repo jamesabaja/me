@@ -45,9 +45,43 @@ $warning: white;
   border-bottom: 7px solid $mustard-2;
 }
 
+.is-circular {
+  border-radius: 50%;
+  width: 13em;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
+.is-disappearing {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.is-disappearing:hover {
+  opacity: 0;
+}
+
+.image-container {
+  position: relative;
+}
+
+.over {
+  position: absolute;
+  z-index: 10;
+}
+
+.under {
+  position: relative;
+  z-index: 9;
+}
+
+.is-padded {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 
 $notification-radius: 10px;
 
