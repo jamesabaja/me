@@ -45,6 +45,10 @@ $warning: white;
   border-bottom: 7px solid $mustard-2;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 $notification-radius: 10px;
 
 @import "../../node_modules/bulma/bulma.sass";

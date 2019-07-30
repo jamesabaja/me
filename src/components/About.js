@@ -4,9 +4,9 @@ const LANGUAGES = ['HTML', 'CSS', 'JS (ES6)', 'Python', 'Java']
 const TOOLS = ['VSCode', 'Git', 'Github']
 const FRAMEWORKS = ['React', 'Gatsby', 'Django', 'Bulma', 'Bootstrap']
 
-const About = () => (
-  <section class="hero is-medium">
-    <div class="hero-body">
+const About = ({aboutRef}) => (
+  <section class="hero is-medium" ref={aboutRef}>
+    <div class="hero-body" ref={aboutRef}>
       <div className='container'>
       <div className='columns'>
         <div className='column'>

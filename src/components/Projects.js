@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Projects = () => (
-  <section class="hero is-medium">
+const Projects = ({ref}) => (
+  <section class="hero is-medium" ref={ref}>
     <div class="hero-body">
       <div class="container">
         <h1 class="subtitle is-size-1">

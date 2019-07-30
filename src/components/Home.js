@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => (
+const Home = ({scrollMethods}) => (
   <section class="hero is-large">
     <div class="hero-body">
       <div class="container">
@@ -15,6 +15,10 @@ const Home = () => (
         </p>
         <p class="animated slideInLeft delay-2s">
           I also code for daily learning and sustenance.
+        </p>
+        <br/>
+        <p class="animated slideInLeft delay-2s">
+          <button class="button is-primary" onClick={scrollMethods[0]}>About</button>
         </p>
       </div>
     </div>
