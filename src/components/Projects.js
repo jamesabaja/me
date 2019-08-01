@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Projects = ({ref}) => (
-  <section class="hero is-medium" ref={ref}>
+  <section class="hero is-medium" ref={ref} id='projects'>
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-size-1">

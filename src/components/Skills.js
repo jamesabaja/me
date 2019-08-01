@@ -5,7 +5,7 @@ const TOOLS = ['VSCode', 'Git', 'Github']
 const FRAMEWORKS = ['React', 'Gatsby', 'Django', 'Bulma', 'Bootstrap']
 
 const Skills = () => (
-  <section class="hero is-medium">
+  <section class="hero is-medium" id="skills">
     <div class="hero-body">
       <div className='container'>
       <div className='columns'>

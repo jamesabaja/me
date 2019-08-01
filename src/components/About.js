@@ -3,8 +3,8 @@ import me from '../assets/me.jpg'
 import grad from '../assets/grad.jpg'
 
 const About = () => (
-  <section class="hero">
-    <div class="hero-head">
+  <section class="hero" id="about">
+    <div class="hero-body">
       <div class="container has-text-centered is-padded">
         <div class="tile is-ancestor" data-aos="fade-up" data-aos-mirror="true" >
           <div class="tile is-vertical is-parent">
@@ -23,9 +23,6 @@ const About = () => (
           </div>
         </div>
       </div>
-    </div>
-    <div className='hero-body'>
-
     </div>
   </section>
 )
