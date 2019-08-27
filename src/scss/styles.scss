@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap');
+@font-face {
+  font-family: 'BebasNeue';
+  // src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/bebas-neue/BebasNeue-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+}
 //Set your brand colors
 // $purple: #8A4D76;
 // $pink: #FA7C91;
@@ -14,9 +19,9 @@ $green: #1E7349;
 $family-sans-serif: "Nunito", sans-serif;
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
-$success: gray;
-$primary: $green;
+$primary: $mustard-2;
 $warning: white;
+$mg-teal: #0D6D6E;
 // $link: $pink;
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;
@@ -29,6 +34,10 @@ $warning: white;
 
 .header {
   font-size: 450%;
+}
+
+.is-teal {
+  color: #0D6D6E;
 }
 
 .notification {
@@ -94,4 +103,6 @@ $notification-radius: 10px;
   border-bottom: 5px solid $green;
 }
 
+
 @import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma-timeline/";

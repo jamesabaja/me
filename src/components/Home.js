@@ -3,9 +3,9 @@ import Navbar from './Navbar';
 
 const Home = () => (
   <section class="hero is-large" id="home">
-    <div class="hero-head"> 
+    {/* <div class="hero-head"> 
       <Navbar />
-    </div>
+    </div> */}
     <div class="hero-body">
       <div class="container is-padded-bottom">
         <h1 class="is-size-1" data-aos="fade-down" data-aos-duration="2000" data-aos-mirror="true" >

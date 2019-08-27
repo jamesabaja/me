@@ -6,6 +6,7 @@ import './scss/styles.scss'
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Timeline from './components/Timeline';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Timeline />
       <Projects />
     </div>
   );
