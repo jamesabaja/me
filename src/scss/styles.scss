@@ -1,10 +1,10 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap");
 @font-face {
-  font-family: 'BebasNeue';
+  font-family: "BebasNeue";
   // src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('../assets/fonts/bebas-neue/BebasNeue-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  src: url("../assets/fonts/bebas-neue/BebasNeue-Regular.woff") format("woff"); /* Pretty Modern Browsers */
 }
 //Set your brand colors
 // $purple: #8A4D76;
@@ -12,16 +12,16 @@
 // $brown: #757763;
 // $beige-light: #D0D1CD;
 // $beige-lighter: #EFF0EB;
-$mustard: #021D44;
-$mustard-2: #F3BA42;
-$green: #1E7349;
+$mustard: #021d44;
+$mustard-2: #f3ba42;
+$green: #1e7349;
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
 $primary: $mustard-2;
 $warning: white;
-$mg-teal: #0D6D6E;
+$mg-teal: #0d6d6e;
 // $link: $pink;
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;
@@ -37,7 +37,7 @@ $mg-teal: #0D6D6E;
 }
 
 .is-teal {
-  color: #0D6D6E;
+  color: #0d6d6e;
 }
 
 .notification {
@@ -56,6 +56,11 @@ $mg-teal: #0D6D6E;
 .is-circular {
   border-radius: 50%;
   width: 13em;
+}
+
+.is-circular-v2 {
+  border-radius: 50%;
+  width: 10em;
 }
 
 html {
@@ -94,7 +99,7 @@ $navbar-item-hover-color: hsl(0, 0%, 29%);
 $notification-radius: 10px;
 
 .is-navbar-item {
-  color:hsl(0, 0%, 29%); 
+  color: hsl(0, 0%, 29%);
   transition: color 1s, border-bottom 1s;
 }
 
@@ -102,7 +107,6 @@ $notification-radius: 10px;
   color: gray;
   border-bottom: 5px solid $green;
 }
-
 
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/bulma-timeline/";
