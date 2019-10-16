@@ -31,6 +31,8 @@ const App = () => {
           </a>
           <br />
           <div id="footer-socialnetworks">
+            <a href="https://github.com/jamesabaja" class="fa fa-github">GitHub</a>
+            &nbsp;&nbsp;
             <a href="https://www.linkedin.com/" class="fa fa-linkedin">Linkedin</a>
             &nbsp;&nbsp;
             <a href="https://twitter.com/" class="fa fa-twitter">Twitter</a>
